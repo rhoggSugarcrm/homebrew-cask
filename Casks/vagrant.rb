@@ -16,4 +16,8 @@ cask 'vagrant' do
             pkgutil: 'com.vagrant.vagrant'
 
   zap delete: '~/.vagrant.d'
+
+  def caveats
+    ["You should run: % vagrant plugin install vagrant-vbguest"]
+  end
 end
