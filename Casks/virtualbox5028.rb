@@ -1,4 +1,4 @@
-cask 'virtualbox' do
+cask 'virtualbox5028' do
   url 'http://download.virtualbox.org/virtualbox/5.0.28/VirtualBox-5.0.28-111378-OSX.dmg'
   sha256 '118e56680ace58d83050a50fd24b5f948b439dd29fd2c6d84200b7de0644de67'
   name 'Oracle VirtualBox'
